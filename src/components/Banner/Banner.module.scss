@@ -1,0 +1,33 @@
+.banner {
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  .bannerLogo {
+    background: #44cfc6;
+    background: linear-gradient(to bottom, #44cfc6 17%, #1d8282 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .bannerLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bannerLink {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .bannerLink:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #44cfc6;
+  }
+}

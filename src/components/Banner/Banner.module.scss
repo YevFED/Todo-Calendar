@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid white;
+
   .bannerLogo {
     background: #44cfc6;
     background: linear-gradient(to bottom, #44cfc6 17%, #1d8282 100%);
@@ -16,6 +16,7 @@
   .bannerLinks {
     display: flex;
     align-items: center;
+    text-align: center;
     gap: 30px;
   }
 
@@ -23,11 +24,13 @@
     font-size: 17px;
     font-weight: 700;
     color: white;
+    margin-left: 20px;
+    transition: 0.3s all;
   }
-
-  .bannerLink:hover {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-color: #44cfc6;
+  .bannerLink :hover {
+    font-size: 17px;
+    font-weight: 700;
+    fill: #44cfc6;
+    transition: 0.3s all;
   }
 }

@@ -1,0 +1,39 @@
+.addTodoWrapper {
+}
+
+.addForm {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+  .formInput {
+    width: 700px;
+    height: 75px;
+    background-color: rgb(31, 31, 31);
+    border: 0px;
+    text-align: center;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out all;
+    font-size: 19px;
+    margin-right: 50px;
+    border-color: #44cfc680;
+  }
+  .formInput::placeholder {
+    font-size: 15px;
+  }
+  // Focusing at input effect
+  .formInput:focus {
+    transition: 0.3s ease-in-out all;
+    box-shadow: 0px 10px 20px 0px #44cfc62f;
+    border: 1px solid #44cfc680;
+    border-color: #44cfc680;
+  }
+
+  .sendButton {
+  }
+}

@@ -1,0 +1,54 @@
+.todoItem {
+  margin-top: 30px;
+  width: 800px;
+  height: auto;
+  background-color: rgb(31, 31, 31);
+  border: 1px solid #44cfc6;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .todoTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.836);
+    max-width: 600px;
+    padding: 20px;
+  }
+
+  .checkCircle {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 0.5px solid #44cfc6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .checkedCircle {
+    width: 30px;
+    height: 30px;
+    background-color: #29837d;
+    border: 0.5px solid #44cfc6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .deleteIcon {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .checkIcon {
+    cursor: pointer;
+  }
+}

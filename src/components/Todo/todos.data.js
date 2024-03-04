@@ -1,16 +1,3 @@
-const todos = [
-  {
-    title: "hello world hello world hello world helloo world hello world",
-    status: false,
-    _id: "1",
-  },
-  {
-    title:
-      "fix a height bufix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bugfix a height bug",
-
-    status: false,
-    _id: "2",
-  },
-];
+const todos = [{ title: "Test", _id: "1", isComplete: false }];
 
 export default todos;

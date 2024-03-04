@@ -7,48 +7,56 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 20px;
   .todoTitle {
     font-size: 20px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.836);
-    max-width: 600px;
+    max-width: 500px;
     padding: 20px;
-  }
-
-  .checkCircle {
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border: 0.5px solid #44cfc6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-right: 30px;
-    cursor: pointer;
-  }
-
-  .checkedCircle {
-    width: 30px;
-    height: 30px;
-    background-color: #29837d;
-    border: 0.5px solid #44cfc6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-right: 30px;
-    cursor: pointer;
+    text-align: center;
   }
 
   .deleteIcon {
     margin-right: 30px;
     margin-left: 30px;
-  }
-  .checkIcon {
     cursor: pointer;
   }
+  .checkIcon {
+    width: 25px;
+    border: 0.5px solid #29837d;
+    padding: 5px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .checkedIcon {
+    width: 25px;
+    border: 0.5px solid #29837d;
+    background-color: #44cfc6;
+    padding: 5px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    fill: black;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+.checkedCircle {
+  width: 30px;
+  height: 30px;
+  background-color: #29837d;
+  border: 0.5px solid #44cfc6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 30px;
+  cursor: pointer;
 }

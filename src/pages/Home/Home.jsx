@@ -1,7 +1,8 @@
-import AddTodo from "../../components/AddTodo/AddTodo";
 import Banner from "../../components/Banner/Banner";
+
 import TodoList from "../../components/todoList/todoList";
 import styles from "./Home.module.scss";
+import Loader from "../../components/Loader/Loader";
 
 import React from "react";
 
